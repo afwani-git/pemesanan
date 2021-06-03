@@ -13,10 +13,10 @@
                 </div>
                 <div class="card-header">
                     <h3 style="margin: 0!important">{{ $workshop['name'] }}</h3>
-                    <sub class="card-subtitle text-white">{{ $workshop['harga'] }}</sub>
+                    <sub class="card-subtitle text-white">Rp {{ $workshop['harga'] }}</sub>
                 </div> 
                 <div class="card-body" style="height: '100%'">
-                    <p>{{  Illuminate\Support\Str::length($workshop['deskripsi']) > 20 ? substr($workshop['deskripsi'], 0 ,15)."..." :$workshop['deskripsi'] }}</p>
+                    <p>{{  Illuminate\Support\Str::length($workshop['deskripsi']) > 30 ? substr($workshop['deskripsi'], 0 ,30)."..." :$workshop['deskripsi'] }}</p>
                 </div>
                 <div class="card-footer text-center">
                     <a href="/daftar/{{ $workshop['id'] }}" class="btn btn-primary p-2">DAFTAR</a>

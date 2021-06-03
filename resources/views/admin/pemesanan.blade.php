@@ -7,7 +7,7 @@
         </h1>
         <div class="col-md-12">
         	<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
 							<h3 class="text-info">Menunggu Konfirmasi</h3>
@@ -73,7 +73,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
 							<h3 class="text-success">Terproses</h3>

@@ -34,6 +34,7 @@ Route::post("/daftar", [PendaftaranController::class, 'daftar']);
 //auth
 Route::get("/login", [AuthController::class, 'loginPage'])->name('login');
 Route::post("/auth", [AuthController::class, 'loginRequest'])->name("auth.login");
+Route::get("/logout", [AuthController::class, 'logout'])->name("auth.logout");
 
 
 //pemesanan action

@@ -18,6 +18,11 @@ class AuthController extends Controller
 		return view('login');
 	}
 
+	public function logout(){
+		Auth::logout();
+		return redirect('/');
+	}
+
 	public function loginRequest(Request $request)
 	{
 		$credentials = $request->only('email', 'password');

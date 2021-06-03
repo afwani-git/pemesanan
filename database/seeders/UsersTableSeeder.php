@@ -23,5 +23,7 @@ class UsersTableSeeder extends Seeder
                 ]
             );
         }
+
+        $this->call(UsersTableSeeder::class);
     }
 }
